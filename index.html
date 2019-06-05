@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="displayDivRow row center-align ">
+            <div id="display" class="displayDiv"></div>
+        </div>
+        <div class="buttonsMainRow">
+            <div class="topControls row center-align">
+                <span id="clearButton" class="col s6 m6 l6">
+                    <p class="clearText" id="clear">Clear</p>
+                </span>
+                <span id="previousButton" class="col s3 m3 l3 operations">
+                    <p class="operationsText" id="preview">PAST</p>
+                </span>
+                <span id="divideButton" class="col s3 m3 l3 operations">
+                    <p class="operationsText" id="divide">/</p>
+                </span>
+
+            </div>
+            <div class="numButtonsRow1 row center-align">
+                <span class="col s3 m3 l3 numberButtons">
+                    <p class="numButtonText"></p>
+                </span>
+                <span class="col s3 m3 l3 numberButtons">
+                    <p class="numButtonText"></p>
+                </span>
+                <span class="col s3 m3 l3 numberButtons">
+                    <p class="numButtonText"></p>
+                </span>
+                <span class="col s3 m3 l3 operations">
+                    <p class="operationsText" id="multiply">x</p>
+                </span>
+            </div>
+            <div class="numButtonsRow2 row center-align">
+                <span class="col s3 m3 l3 numberButtons">
+                    <p class="numButtonText"></p>
+                </span>
+                <span class="col s3 m3 l3 numberButtons">
+                    <p class="numButtonText"></p>
+                </span>
+                <span class="col s3 m3 l3 numberButtons">
+                    <p class="numButtonText"></p>
+                </span>
+                <span id="subtractButton" class="col s3 m3 l3 operations">
+                    <p class="operationsText" id="subtract">-</p>
+                </span>
+
+            </div>
+            <div class="numButtonsRow3 row center-align">
+                <span class="col s3 m3 l3 numberButtons">
+                    <p class="numButtonText"></p>
+                </span>
+                <span class="col s3 m3 l3 numberButtons">
+                    <p class="numButtonText"></p>
+                </span>
+                <span class="col s3 m3 l3 numberButtons">
+                    <p class="numButtonText"></p>
+                </span>
+                <span id="add" class="col s3 m3 l3 operations">
+                    <p class="operationsText" id="add">+</p>
+                </span>
+            </div>
+        <div class="numButtonsRow4 row center-align">
+            <span class="zeroButton col s9 m9 l9">
+                <p class="numButtonText"></p>
+            </span>
+            <span id="equals" class="col s3 m3 l3 operations">
+                <p class="operationsText" id="equals">=</p>
+            </span>
+        </div>
+        <div id="pastWindow">
+            <div id="pastExit" class="center-align">
+                <p id="x">X</p>
+            </div>
+            <div id="pastText" class="center-align">
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+
+    <script src="assets/app.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>

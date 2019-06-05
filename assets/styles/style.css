@@ -1,0 +1,188 @@
+html, body {
+    min-height: 100%;
+    height: 100%;
+}
+
+.container{
+    min-height: 100%;
+    height: 100%;
+}
+
+.displayDivRow{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 5%;
+    background-color: grey;
+    color: white;
+    margin-top: 10%;
+    height: 13%;
+    font-size: 250%;
+    position: relative;
+    padding-top: 3.3%;
+}
+
+.buttonsMainRow {
+    height: 70%;
+    margin-top : -2%;
+    margin-bottom: 0;
+}
+
+.topControls {
+    height: 22%;
+}
+
+
+.numButtonsRow1 {
+    height: 22%;
+    margin-top : -3%;
+}
+
+.numButtonsRow2 {
+    height: 22%;
+    margin-top : -3%;
+}
+
+.numButtonsRow3 {
+    height: 22%;
+    margin-top : -3%;
+}
+
+.numButtonsRow4{
+    height: 15%;
+    width: 100%;
+    margin-top : -3%;
+}
+
+#pastWindow{
+    background: lightgrey;
+    height: 65%;
+    width: 58%;
+    left: 20%;
+    bottom: 5%;
+    position: absolute;
+    border-radius: 10px;
+    border: solid 2px navy;
+    visibility: hidden;
+}
+
+#pastText{
+    height: 5%;
+    font-size: 4vw;
+    font-size: 4vh;
+}
+
+#pastExit{
+    width: 10%;
+    height: 10%;
+    margin-left: 90%;
+    margin-bottom: 10px;
+    background-color: darkred;
+    border: 1px grey solid;
+    border-radius: 60%;
+    color: white;
+    position: absolute;
+    font-size: 130%;
+    visibility: hidden;
+}
+
+#x{
+    height: 100%;
+    font-size: 4vw;
+    font-size: 4vh;
+    margin: 0;
+
+}
+
+.numberButtons {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 5px;
+    background: blue;
+    color: white;
+    font-size: 260%;
+    margin-left: 1%;
+    height: 100%;
+    position: relative;
+    display: table;
+}
+
+.zeroButton{    
+    border-style: solid;
+    width: 73%;
+    height: 100%;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 5px;
+    background: blue;
+    color: white;
+    font-size: 260%;
+    /* margin-left: 1%; */
+    height: 100%;
+    position: relative;
+    display: table;
+    margin-bottom: 5%;
+}
+
+.numButtonText{
+    display: table-cell;
+    vertical-align: middle !important;
+}
+
+
+.operations {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    background: black;
+    color: white;
+    border-radius: 5%;
+    height: 100%;
+    font-size: 250%;
+    position: relative;
+    display: table;
+}
+
+#previousButton{
+    margin-left: 0;
+    width: 25.3%;
+    margin-right: 0.1%;
+}
+
+.operationsText {
+    display: table-cell;
+    vertical-align: middle !important;
+}
+
+#divideButton{
+    width: 24%;
+    margin-left:0;
+}
+
+#subtractButton{
+    width: 25%;
+}
+
+#clearButton {
+    position: relative;
+    display: table;
+    height: 100%;
+    width: 51.5%;
+    padding-right: 0;
+    margin-left: -1.7%;
+}
+
+#clear {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 5%;
+    background-color: red;
+    color: white;
+    font-size: 250%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle !important;
+}
+
